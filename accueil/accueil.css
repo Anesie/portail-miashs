@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    height: 60px;
+    height: 100px;
 }
 
 .site-title {
@@ -52,15 +52,15 @@ body {
     font-size: 20px;
 }
 
-/* Cartes de lien */
-.cards-container {
+/* Rubriques */
+.rubrics-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.card {
+.rubric {
     background-color: #ec87de;
     color: white;
     padding: 40px 60px;
@@ -70,6 +70,6 @@ body {
     transition: background-color 0.3s;
 }
 
-.card:hover {
+.rubric:hover {
     background-color: #e070d2;
 }
