@@ -1,0 +1,75 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #1c2340;
+}
+
+/* En-tête */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.site-title {
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+/* Barre rose */
+.menu-bar {
+    background-color: #ec87de;
+    padding: 10px 20px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Contenu principal */
+.main-content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.question-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+/* Cartes de lien */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ec87de;
+    color: white;
+    padding: 40px 60px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: #e070d2;
+}
