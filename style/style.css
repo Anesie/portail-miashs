@@ -30,14 +30,15 @@ body {
 /* Barre rose */
 .menu-bar {
     background-color: #ec87de;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 .menu-button {
     background: none;
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -154,4 +155,10 @@ body {
 
 .more-button:hover {
     background-color: #e070d2;
+}
+
+/* Texte attention */
+.attention {
+    color: #ef77d0;
+    font-weight: bold;
 }
