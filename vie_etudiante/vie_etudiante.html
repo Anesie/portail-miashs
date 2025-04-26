@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Vie Étudiante - Portail MIASHS</title>
     <link rel="stylesheet" href="../style/style.css">
+    <script src="../menu.js"></script>
 </head>
 <body>
 
@@ -15,7 +16,17 @@
 
     <!-- Barre rose -->
     <nav class="menu-bar">
-        <button class="menu-button">☰ MENU</button>
+        <div class="menu-container">
+            <button class="menu-button" onclick="toggleMenu()">☰ MENU</button>
+            <ul class="dropdown-menu" id="menu">
+                <li><a href="../accueil/accueil.html">Accueil</a></li>
+                <li><a href="../examens/examens.html">Examens</a></li>
+                <li><a href="../inscriptions/inscriptions.html">Inscriptions pédagogiques</a></li>
+                <li><a href="../vie_etudiante/vie_etudiante.html">Vie étudiante à Grenoble</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+        
     </nav>
 
     <!-- Contenu principal -->

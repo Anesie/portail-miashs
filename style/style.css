@@ -162,3 +162,57 @@ body {
     color: #ef77d0;
     font-weight: bold;
 }
+
+/* Menu déroulant caché de base */
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #e070d2; /* couleur rose */
+    position: absolute;
+    top: 60px; /* Ajuste selon la hauteur de ta barre */
+    right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Afficher le menu quand la classe show est active */
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f8c3ee; /* couleur rose */
+    position: absolute;
+    top: 100%; /* pour placer sous le bouton */
+    left: 0; /* aligné avec le bouton */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    min-width: 160px; /* optionnel : largeur minimale du menu */
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+/* Liens du menu */
+.dropdown-menu li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Effet au survol */
+.dropdown-menu li:hover {
+    background-color: #e070d2; /* rose plus foncé */
+}
+
+.menu-container {
+    position: relative; /* IMPORTANT : pour que le menu soit positionné par rapport au bouton */
+    display: inline-block; /* pour que ça ne prenne pas toute la ligne */
+}
