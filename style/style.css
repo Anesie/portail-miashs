@@ -1,0 +1,157 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #1c2340;
+}
+
+/* En-tête */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 70px; /* réduit pour toutes les pages */
+}
+
+.site-title {
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+/* Barre rose */
+.menu-bar {
+    background-color: #ec87de;
+    padding: 10px 20px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Contenu principal */
+.main-content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.question-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+/* Rubriques accueil */
+.rubrics-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rubric {
+    background-color: #ec87de;
+    color: white;
+    padding: 40px 60px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.rubric:hover {
+    background-color: #e070d2;
+}
+
+/* ---------------------------- */
+/* VIE ETUDIANTE */
+/* ---------------------------- */
+
+.container {
+    display: flex;
+    margin: 40px;
+}
+
+/* Menu latéral */
+.side-menu {
+    width: 250px;
+    background-color: #f8c3ee;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.side-title {
+    background-color: #ec87de;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.side-links {
+    list-style: none;
+}
+
+.side-links li {
+    margin-bottom: 15px;
+}
+
+.side-links a {
+    text-decoration: none;
+    color: #1c2340;
+    font-weight: bold;
+}
+
+/* Contenu principal */
+.content {
+    flex: 1;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+/* Blocs d'information */
+.bloc {
+    margin-bottom: 30px;
+}
+
+.bloc h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.more-button {
+    background-color: #ec87de;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.more-button:hover {
+    background-color: #e070d2;
+}
