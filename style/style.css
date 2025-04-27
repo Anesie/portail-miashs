@@ -216,3 +216,43 @@ body {
     position: relative; /* IMPORTANT : pour que le menu soit positionné par rapport au bouton */
     display: inline-block; /* pour que ça ne prenne pas toute la ligne */
 }
+
+
+
+/*Pour la page contacts*/
+.contacts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px;
+    background-color: #f0f0f0; /* gris clair */
+}
+
+.contact-card {
+    background: white;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+    background-color: #ec87d3; /* rose */
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    margin: 0;
+}
+
+.contact-name {
+    color: #ec87d3;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact-card p {
+    margin: 10px 0;
+}
+
+
+
