@@ -14,18 +14,19 @@
     </header>
 
     <!-- Barre rose -->
-    <aside class="side-menu">
-        <h2 class="side-title">Examens</h2>
-        <ul class="side-links">
-            <li><a href="#infos-generales">Infos générales</a></li>
-            <li><a href="#charte-examens">Charte des examens</a></li>
-            <li><a href="#organisation-examens">Organisation des examens</a></li>
-            <li><a href="#absence">En cas d'absence</a></li>
-            <li><a href="#resultats">Résultats</a></li>
-            <li><a href="#seconde-chance">Seconde chance</a></li>
-            <li><a href="#redoublement">Redoublement</a></li>
-        </ul>
-    </aside>
+    <nav class="menu-bar">
+        <div class="menu-container">
+            <button class="menu-button" onclick="toggleMenu()">☰ MENU</button>
+            <ul class="dropdown-menu" id="menu">
+                <li><a href="../accueil/accueil.html">Accueil</a></li>
+                <li><a href="../examens/examens.html">Examens</a></li>
+                <li><a href="../inscriptions/inscriptions.html">Inscriptions pédagogiques</a></li>
+                <li><a href="../vie_etudiante/vie_etudiante.html">Vie étudiante à Grenoble</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+        
+    </nav>
 
     <!-- Contenu principal -->
     <main class="main-content">
@@ -49,7 +50,7 @@
                 <p class="attention">
                     Attention, si vous n'avez pas fait vos inscriptions pédagogiques vous n'apparaitrez pas sur les listes d'émargement des examens !
                 </p>
-                <a href="#" class="more-button">Effectuer votre IP</a>
+                <a href="https://ipweb-uga.grenet.fr/ipweb-uga/loginInscription.jsf" class="more-button">Effectuer votre IP</a>
 
                 <div class="bloc">
                     <h3>Enseignements transversaux à choix</h3>
@@ -60,9 +61,10 @@
                 <div class="bloc">
                     <p>Dans le cadre de la licence MIASHS, vous serez amené à effectuer des ETC.</p>
                     <p>Les ETC sont des enseignements non spécialistes qui couvrent l’ensemble des disciplines de l’UGA et permettent aux étudiants une ouverture vers d’autres champs disciplinaires que ceux de leur formation. On y trouve des enseignements interdisciplinaires variés. Les ETC recouvrent également les cours de langues et le sport.</p>
-                    <a href="#" class="more-button">ETC interdisciplinaires</a>
-                    <a href="#" class="more-button">ETC de langues</a>
-                    <a href="#" class="more-button">ETC de sports</a>
+                    <a href="https://www.univ-grenoble-alpes.fr/formation/enrichir-son-parcours/personnaliser-sa-formation/les-etc-interdisciplinaires/les-enseignements-transversaux-a-choix-etc-interdisciplinaires-723382.kjsp" class="more-button">ETC interdisciplinaires</a>
+                    <a href="https://www.univ-grenoble-alpes.fr/formation/enrichir-son-parcours/personnaliser-sa-formation/les-etc-de-langues/les-enseignements-transversaux-a-choix-etc-de-langues-723372.kjsp" class="more-button">ETC de langues</a>
+                    <a href="https://suaps.univ-grenoble-alpes.fr/menu-principal/activites-a-grenoble/activites-notees/s-inscrire-a-une-activite-notee/
+                    " class="more-button">ETC de sports</a>
                 </div>
 
             </section>
