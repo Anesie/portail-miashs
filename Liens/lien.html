@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Enseignements transversaux à choix</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../menu.js"></script>
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header class="header">
+        <img src="../images/Logo_UGA.svg.png" alt="Logo UGA" class="logo">
+        <h1 class="site-title">Portail MIASHS</h1>
+    </header>
+
+    <!-- Barre rose -->
+    <nav class="menu-bar">
+        <div class="menu-container">
+            <button class="menu-button" onclick="toggleMenu()">☰ MENU</button>
+            <ul class="dropdown-menu" id="menu">
+                <li><a href="../accueil/accueil.html">Accueil</a></li>
+                <li><a href="../examens/examens.html">Examens</a></li>
+                <li><a href="../inscriptions/inscriptions.html">Inscriptions pédagogiques</a></li>
+                <li><a href="../vie_etudiante/vie_etudiante.html">Vie étudiante à Grenoble</a></li>
+                <li><a href="../contacts/contacts.html">Contacts</a></li>
+                <li><a href="../liens/lien.html">Liens utiles</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+
+   <!-- Contenu principal -->
+   <main class="main-content">
+    <div class="container">
+
+        <!-- Menu latéral -->
+        <aside class="side-menu">
+            <h2 class="side-title">Liens utiles</h2>
+            <ul class="side-links">
+                <li><a href="#leo">Léo</a></li>
+                <li><a href="#moodle">Moodle</a></li>
+                <li><a href="#campus-uga">Campus UGA</a></li>
+                <li><a href="#bu">Bibliothèque Universitaires</a></li>
+                <li><a href="#ufr">UFR</a></li>
+                <li><a href="#catalogue">Le catalogue des services numériques</a></li>
+                <li><a href="#sos-etudiants">Assistance Informatique</a></li>
+                <li><a href="#bde">BDE MIASHS</a></li>
+            </ul>
+        </aside>
+
+        <!-- Partie principale -->
+       <section class="content">
+
+        <!--Intranet Léo-->
+        <h2>Liens Utiles</h2>
+        
+        <div class="bloc">
+            <h3 id="leo">Votre intranet Léo</h3>
+            <p>Vous trouvez dans votre Intranet étudiant une multitude d'informations et de liens vers différents services indispensables à votre vie d'étudiant. Il permet notamment d'accéder rapidement à votre relevé de notes, à votre emploi du temps, à votre messagerie institutionnelle Zimbra et à vos plateformes de cours en ligne.</p>
+            <a href="https://authentification.univ-grenoble-alpes.fr/cas/login?service=https%3A%2F%2Fleo.univ-grenoble-alpes.fr%2Fservlet%2Fcom.jsbsoft.jtf.core.SG%3FPROC%3DIDENTIFICATION_FRONT" class="more-button">Accès au site</a>
+        </div>
+
+        <!--Moodle-->
+        <div class="bloc">
+            <h3 id="moodle">Moodle</h3>
+            <p>Pour accéder à la plateforme, vous aurez besoin de vos identifiants universitaires. La liste des cours disponibles en ligne pour lesquels vous êtres inscrit par votre enseignant apparait ensuite sur la plateforme.</p>
+            <a href="https://cas-simsu.grenet.fr/login?service=https%3A%2F%2Fcours.univ-grenoble-alpes.fr%2Flogin%2Findex.php" class="more-button">Accès au site</a>
+        </div>
+
+        <!--Campus UGA-->
+        <div class="bloc">
+            <h3 id="campus-uga">Campus UGA</h3>
+            <p>Téléchargez l'application mobile Campus UGA sur votre smartphone pour découvrir l'actualité des campus, vous géolocaliser et profiter au mieux de votre carte multi-services.</p>
+            <a href="https://app-campus.univ-grenoble-alpes.fr/web/" class="more-button">Accès à l'application</a>
+        </div>
+            
+        <!--Bibliothèque Universitaires-->
+        <div class="bloc">
+            <h3 id="bu">Bibliothèque Universitaires</h3>
+            <p>L'application Affluences vous permet de savoir en temps réel s'il y a du monde dans votre Bibliothèque Universitaire, et également de réserver une place.</p>
+            <a href="https://bibliotheques.univ-grenoble-alpes.fr" class="more-button">En savoir plus</a>
+            <a href="https://affluences.com" class="more-button">Affluences</a>
+        </div>
+
+
+            
+        <!--UFR-->
+        <div class="bloc">
+            <h3 id="ufr">UFR</h3>
+            <p>Vous pourrez retrouvez toutes les informations liés à votre UFR sur leur site.</p>
+            <a href="https://shs.univ-grenoble-alpes.fr" class="more-button">UFR SHS</a>
+            <a href="https://economie.univ-grenoble-alpes.fr" class="more-button">UFR FEG</a>
+        </div>
+
+        <!--Catalogue-->
+        <div class="bloc">
+            <h3 id="catalogue">Le catalogue des services numériques</h3>
+            <p>Retrouvez les informations et l'aide à l'utilisation des services numériques et informatiques dont vous aurez besoin tout au long de votre vie d'étudiant à l'Université Grenoble Alpes.</p>
+            <a href="https://services-numeriques.univ-grenoble-alpes.fr" class="more-button">Accès au catalogue</a>
+        </div>
+
+         <!--SOS étudiant-->
+         <div class="bloc">
+            <h3 id="sos-etudiants">Assistance informatique</h3>
+            <p>SOS-ETUDIANTS c’est l’assistance informatique dédiée aux étudiants de l’Université Grenoble Alpes.</p>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://secteur-sante.univ-grenoble-alpes.fr/secteur-sante/brochure-de-presentation-sos-etudiants-887359.kjsp&ved=2ahUKEwiU9YTvm4iNAxV6RKQEHQsbAScQFnoECBcQAQ&usg=AOvVaw2qgxPW7V-C6kUXZjbINfYt" class="more-button">Flyer SOS-Étudiants</a>
+        </div>
+
+        <!--BDE-->
+        <div class="bloc">
+            <h3 id="bde">BDE MIASHS</h3>
+            <p>Le Bureau Des Etudiants de la licence MIASHS de Grenoble, permet dans un premier temps, de faire connaitre et de représenter la licence dans divers évènements. Il permet aussi de faciliter l'intégration des nouveaux étudiants, de développer la communication intra et inter-promo tout en gardant contact avec les anciens élèves afin qu'ils puissent aider les étudiants dans leur choix de poursuite d'études.</p>
+            <a href="https://bdemiashsgrenoble.fr" class="more-button">Accès au site</a>
+        </div>
+
+
+        
+        
+       
