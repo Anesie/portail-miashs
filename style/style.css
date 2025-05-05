@@ -253,12 +253,12 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    display: none;        /* caché par défaut */
+    display: none;        
     align-items: center;
     justify-content: center;
   }
   #back-to-top.show {
-    display: flex;        /* ou block, quand tu veux l’afficher */
+    display: flex;       
   }
   
 
