@@ -38,10 +38,10 @@
             <aside class="side-menu">
                 <h2 class="side-title">La vie étudiante</h2>
                 <ul class="side-links">
-                    <li><a href="#">La vie de campus à l’UGA</a></li>
-                    <li><a href="#">Services étudiants de l’UGA</a></li>
-                    <li><a href="#">Le portail étudiant</a></li>
-                    <li><a href="#">Application Campus UGA</a></li>
+                    <li><a href="vie-etu" data-target="vie-etu">La vie de campus à l’UGA</a></li>
+                    <li><a href="service-etu" data-target="service-etu">Services étudiants de l’UGA</a></li>
+                    <li><a href="portail" data-target="portail">Le portail étudiant</a></li>
+                    <li><a href="app-uga" data-target="app-uga">Application Campus UGA</a></li>
                 </ul>
             </aside>
 
@@ -50,27 +50,27 @@
                 <h2>La vie étudiante à Grenoble</h2>
                 <p>Bienvenue sur cette page dédiée à la vie étudiante à Grenoble. D’après le classement de Shangai, l’UGA est dans le top 150 mondial et dans le top 5 des meilleures universités françaises !</p>
 
-                <div class="bloc">
+                <div id ="vie-etu" class="content-section" style="display: none;">
                     <h3>La vie de campus à l’UGA</h3>
-                    <a href="#" class="more-button">En savoir plus</a>
+                    <a href="https://www.univ-grenoble-alpes.fr/campus/vie-de-campus-711957.kjsp" class="more-button">En savoir plus</a>
                 </div>
 
-                <div class="bloc">
+                <div id ="service-etu" class="content-section" style="display: none;">
                     <h3>Les services étudiants de l’UGA</h3>
                     <p>Découvrez la multitude de services qui facilitent vos études et votre expérience étudiante.</p>
-                    <a href="#" class="more-button">En savoir plus</a>
+                    <a href="https://www.youtube.com/@UniversiteDeGrenoble" class="more-button">En savoir plus</a>
                 </div>
 
-                <div class="bloc">
+                <div id ="portail" class="content-section" style="display: none;">
                     <h3>Le portail étudiant</h3>
                     <p>Le site qui regroupe conseils, infos et démarches pour vous accompagner à l'UGA.</p>
-                    <a href="#" class="more-button">En savoir plus</a>
+                    <a href="https://etudiant.univ-grenoble-alpes.fr/francais/accueil-1352293.kjsp" class="more-button">En savoir plus</a>
                 </div>
 
-                <div class="bloc">
+                <div id ="app-uga" class="content-section" style="display: none;">
                     <h3>L’application Campus UGA</h3>
                     <p>Consultez votre emploi du temps, localisez-vous sur les campus et plus encore.</p>
-                    <a href="#" class="more-button">En savoir plus</a>
+                    <a href="https://app-campus.univ-grenoble-alpes.fr/web/" class="more-button">En savoir plus</a>
                 </div>
 
             </section>
@@ -78,5 +78,25 @@
         </div>
     </main>
     <script src="../script/menu.js"    defer></script>
+    <script>
+        const links = document.querySelectorAll('.side-links a');
+        const sections = document.querySelectorAll('.content-section');
+      
+        links.forEach(link => {
+          link.addEventListener('click', e => {
+            e.preventDefault();
+            const targetId = link.getAttribute('data-target');
+      
+            // Masquer toutes les sections
+            sections.forEach(sec => sec.style.display = 'none');
+      
+            // Afficher la section cliquée
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+              targetSection.style.display = 'block';
+            }
+          });
+        });
+      </script>
 </body>
 </html>
