@@ -163,19 +163,6 @@ body {
     font-weight: bold;
 }
 
-/* Menu déroulant caché de base */
-.dropdown-menu {
-    display: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #e070d2; /* couleur rose */
-    position: absolute;
-    top: 60px; /* Ajuste selon la hauteur de ta barre */
-    right: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
 
 /* Afficher le menu quand la classe show est active */
 .dropdown-menu {
@@ -192,9 +179,9 @@ body {
     min-width: 160px; /* optionnel : largeur minimale du menu */
 }
 
-.dropdown-menu.show {
+.dropdown-menu.open {
     display: block;
-}
+  }  
 
 /* Liens du menu */
 .dropdown-menu li {
@@ -253,6 +240,27 @@ body {
 .contact-card p {
     margin: 10px 0;
 }
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ec87de;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: none;        /* caché par défaut */
+    align-items: center;
+    justify-content: center;
+  }
+  #back-to-top.show {
+    display: flex;        /* ou block, quand tu veux l’afficher */
+  }
+  
 
 
 
