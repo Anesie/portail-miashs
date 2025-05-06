@@ -260,8 +260,8 @@ body {
   #back-to-top.show {
     display: flex;       
   }
-  /* 1) Par défaut (smartphone) */
-/* — Le menu hamburger s’affiche, le menu complet est masqué */
+ /* 1) Par défaut (smartphone) 
+/* — Le menu hamburger s’affiche, le menu complet est masqué 
 .menu-button {
     display: inline-block;
   }
@@ -269,9 +269,9 @@ body {
     display: none;
   }
   
-  /* 2) Tablette (à partir de 768px) */
+  /* 2) Tablette (à partir de 768px) 
   @media (min-width: 768px) {
-    /* Hamburger → menu toujours visible en ligne */
+    /* Hamburger → menu toujours visible en ligne 
     .menu-button {
       display: none;
     }
@@ -286,7 +286,7 @@ body {
       padding: 0 15px;
     }
   
-    /* Rubrics (accueil) : passage à plusieurs colonnes */
+    /* Rubrics (accueil) : passage à plusieurs colonnes 
     .rubrics-container {
       flex-direction: row;
       justify-content: center;
@@ -294,16 +294,16 @@ body {
       gap: 30px;
     }
   
-    /* Contacts : un peu plus d’espacement */
+    /* Contacts : un peu plus d’espacement 
     .contacts-grid {
       gap: 30px;
       padding: 20px;
     }
   }
   
-  /* 3) Desktop large (à partir de 1024px) */
+  /* 3) Desktop large (à partir de 1024px) 
   @media (min-width: 1024px) {
-    /* Vie étudiante : side-menu & contenu côte à côte */
+    /* Vie étudiante : side-menu & contenu côte à côte 
     .container {
       flex-direction: row;
     }
@@ -315,12 +315,12 @@ body {
       margin-left: 40px;
     }
   
-    /* Contacts : on garde le même grid mais on augmente les gaps */
+    /* Contacts : on garde le même grid mais on augmente les gaps 
     .contacts-grid {
       gap: 40px;
       padding: 40px;
     }
-  }
+  }*/
 
 
 
