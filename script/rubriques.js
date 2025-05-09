@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
         const targetId = link.getAttribute('data-target');
 
-        // Masquer toutes les sections
+        // Masque toutes les sections
         sections.forEach(sec => sec.style.display = 'none');
 
-        // Afficher la section cliquée
+        // Affiche uniquement la section cliquée
         const targetSection = document.getElementById(targetId);
         if (targetSection) {
           targetSection.style.display = 'block';
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    // Affichage automatique si un hash est présent dans l'URL (ex: #absence)
+    // Affichage automatique si un hash est présent dans l'URL
     const hash = window.location.hash;
     if (hash) {
       const target = document.querySelector(hash);

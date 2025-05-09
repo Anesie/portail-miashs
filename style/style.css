@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    height: 80px; /* réduit pour toutes les pages */
+    height: 80px; 
 }
 
 .site-title {
@@ -38,7 +38,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: relative; /* pour positionner le dropdown */
+    position: relative;
 }
 
   .menu-left {
@@ -61,10 +61,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
   }
- /* .dropdown-menu {
-    ...
-    z-index: 1000;
-}*/
+
 
 /*Onglet de recherche*/
 .search-modal {

@@ -1,4 +1,4 @@
-// Liste simplifiée de pages et mots-clés associés
+// Liste des mots qui renvoient vers les bonnes pages 
 const pages = [
     {
       titre: "Examens",
@@ -72,7 +72,7 @@ const pages = [
     },
     {
       titre: "Redoublement",
-      url: "../examens/examens.html#redoublement", // corrigé ici
+      url: "../examens/examens.html#redoublement",
       resume: "Vous n'avez pas validé votre année ? Découvrez-en plus sur la démarche à suivre."
     },
     {
