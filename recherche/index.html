@@ -1,0 +1,35 @@
+<!-- HTML: index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portail MIASHS - Recherche</title>
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <!-- Bouton RECHERCHE -->
+  <nav class="menu-bar">
+    <div class="menu-container">
+      <button class="menu-button" onclick="toggleMenu()">☰ MENU</button>
+      <div class="search-right">
+        <button class="open-search" onclick="openSearchModal()">RECHERCHE</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fenêtre modale de recherche -->
+  <div id="search-modal" class="search-modal" style="display:none;">
+    <div class="search-content">
+      <span class="close-search" onclick="closeSearchModal()">&times;</span>
+      <h2>Que recherchez-vous ?</h2>
+      <div class="search-input">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Saisissez les mot-clés">
+      </div>
+      <button class="validate-button">VALIDER</button>
+    </div>
+  </div>
+
+  <script src="../scripts/recherche.js"></script>
+</body>
+</html>

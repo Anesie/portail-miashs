@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Résultats de recherche - Portail MIASHS</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header class="header"> 
+        <img src="../images/Logo_UGA.svg.png" alt="Logo UGA" class="logo">
+        <h1 class="site-title">Portail MIASHS</h1>
+    </header>
+
+    <!-- Barre de menu (en rose) -->
+    <nav class="menu-bar">
+        <div class="menu-container">
+            <div class="menu-left">
+                <button class="menu-button" onclick="toggleMenu()">☰ MENU</button>
+                <ul class="dropdown-menu" id="menu">
+                    <li><a href="../accueil/accueil.html">Accueil</a></li>
+                    <li><a href="../examens/examens.html">Examens</a></li>
+                    <li><a href="../inscriptions/inscriptions.html">Inscriptions pédagogiques</a></li>
+                    <li><a href="../vie_etudiante/vie_etudiante.html">Vie étudiante à Grenoble</a></li>
+                    <li><a href="../contacts/contacts.html">Contacts</a></li>
+                    <li><a href="../liens/lien.html">Liens utiles</a></li>
+                </ul>
+            </div>
+
+            <div class="search-right">
+                <button class="open-search" onclick="openSearchModal()">RECHERCHE</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Zone des résultats -->
+    <main class="main-content">
+        <!-- Résultats affichés dynamiquement ici -->
+    </main>
+
+    <!-- Modale de recherche -->
+    <div id="search-modal" class="search-modal" style="display: none;">
+        <div class="search-modal-content">
+            <span class="close-modal" onclick="closeSearchModal()">&times;</span>
+            <h2>Que recherchez-vous ?</h2>
+            <input type="text" placeholder="Saisissez les mots-clés" />
+            <button class="validate-button">VALIDER</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Menu déroulant
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("open");
+        }
+    </script>
+    <script src="../script/menu.js" defer></script>
+    <script src="../script/recherche.js" defer></script>
+    <script src="../script/resultats.js" defer></script>
+</body>
+</html>

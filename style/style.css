@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    height: 70px; /* réduit pour toutes les pages */
+    height: 80px; /* réduit pour toutes les pages */
 }
 
 .site-title {
@@ -27,12 +27,135 @@ body {
     font-size: 24px;
 }
 
-/* Barre rose */
+/*Bouton recherche*/
 .menu-bar {
     background-color: #ec87de;
     padding: 15px 20px;
+  }
+  
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative; /* pour positionner le dropdown */
 }
 
+  .menu-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search-right {
+    margin-left: auto;
+  }
+  
+  .open-search {
+    background-color: white;
+    color: #ec87de;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+ /* .dropdown-menu {
+    ...
+    z-index: 1000;
+}*/
+
+/*Onglet de recherche*/
+.search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .search-modal-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+    text-align: center;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #ec87de;
+    cursor: pointer;
+  }
+  
+  .validate-button {
+    background-color: #ec87de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  /*Page des résultats*/
+  .resultats-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f2f8;
+    border-radius: 10px;
+}
+
+.resultats-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ec87de;
+}
+
+.resultat-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.resultat-item h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #1c2340;
+}
+
+.resultat-item p {
+    font-size: 16px;
+    color: #444;
+}
+
+.resultat-item a {
+    color: #ec87de;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resultat-item a:hover {
+    text-decoration: underline;
+}
+
+  
 /* Bouton hamburger */
 .menu-button {
     background: none;
@@ -199,10 +322,6 @@ body {
     background-color: #e070d2;
 }
 
-.menu-container {
-    position: relative;
-    display: inline-block;
-}
 
 /* Pour la page contacts */
 .contacts-grid {
@@ -329,3 +448,13 @@ body {
         padding: 40px;
     }
 }
+
+/*Easpce rubriques*/
+.content > div:first-of-type {
+    margin-bottom: 40px;
+}
+
+
+
+
+
