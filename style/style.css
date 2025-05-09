@@ -453,6 +453,11 @@ body {
 .content > div:first-of-type {
     margin-bottom: 40px;
 }
+.content-section {
+    margin-top: 40px;
+}
+
+
 
 
 

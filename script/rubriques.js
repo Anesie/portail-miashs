@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sections.forEach(sec => sec.style.display = 'none');
         // Afficher la bonne section
         target.style.display = 'block';
+        
       }
     }
   });

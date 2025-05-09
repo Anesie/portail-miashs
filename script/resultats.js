@@ -11,6 +11,21 @@ const pages = [
       resume: "Pour mieux vous renseigner sur les conditions de la Session 2."
     },
     {
+      titre: "Renonciation",
+      url: "../examens/examens.html#seconde-chance",
+      resume: "Pour mieux comprendre la renonciation."
+    },
+    {
+      titre: "La compensation",
+      url: "../examens/examens.html#seconde-chance",
+      resume: "Pour mieux comprendre la compensation."
+    },
+    {
+      titre: "Ajourné ou Défaillant",
+      url: "../examens/examens.html#seconde-chance",
+      resume: "Vous êtes ajourné ou défaillant ? Cliquez pour en savoir plus."
+    },
+    {
       titre: "Informations Générales",
       url: "../examens/examens.html#infos-generales",
       resume: "Les informations générales sur les examens."
@@ -21,6 +36,21 @@ const pages = [
       resume: "La charte des examens est disponible au format PDF."
     },
     {
+      titre: "Le MCCC",
+      url: "../examens/examens.html#infos-generales",
+      resume: "Un doute sur les enseignements dispensés lors de votre année ? Cliquez pour en savoir plus !"
+    },
+    {
+      titre: "Le règlement des études",
+      url: "../examens/examens.html#infos-generales",
+      resume: "Tout ce que vous devez savoir sur vos droits et devoirs dans le cadre de la licence."
+    },
+    {
+      titre: "Dispences d'assiduité",
+      url: "../examens/examens.html#infos-generales",
+      resume: "Vous souhaitez faire une demande de dispense d'assiduité ? Cliquez pour en savoir plus."
+    },
+    {
       titre: "Organisation des Examens",
       url: "../examens/examens.html#organisation-examens",
       resume: "Pour vous renseigner sur l'organisation des examens."
@@ -29,6 +59,11 @@ const pages = [
       titre: "Absences aux examens",
       url: "../examens/examens.html#absence",
       resume: "En cas d'absence aux examens, comment faire ?"
+    },
+    {
+      titre: "Consultation des copies",
+      url: "../examens/examens.html#resultats",
+      resume: "Découvrez comment consulter vos copies d'examens ou de contrôle continu !"
     },
     {
       titre: "Résultats",
@@ -101,7 +136,7 @@ const pages = [
       resume: "Accès au catalogue des services numériques !"
     },
     {
-      titre: "Le catalogue des services numériques",
+      titre: "SOS-Étudiants",
       url: "../liens/lien.html#sos-etudiants",
       resume: "Un problème informatique ? Pas de panique, l'assistance des étudiants est là pour vous aider !"
     },
