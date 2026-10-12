@@ -12,7 +12,7 @@ Le portail est divisé en plusieurs rubriques clés pour répondre aux besoins q
 *   🔍 **Barre de recherche globale :** Fonctionnalité ajoutée suite à des tests utilisateurs pour permettre de trouver une information précise instantanément.
 
 ## 🛠️ Technologies utilisées
-*   **Front-end :** HTML5, CSS3, JavaScript (Vanilla)
+*   **Front-end :** HTML, CSS, JavaScript
 *   **Méthodologie :** Conception centrée sur l'utilisateur (UCD), intégration de retours suite à des phases de tests utilisateurs.
 
 ## 🧪 Démarche et Tests Utilisateurs
