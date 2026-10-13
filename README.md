@@ -23,12 +23,12 @@ As this is a static front-end project, installation is very straightforward:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/Anesie/projet_S6.git](https://github.com/Anesie/projet_S6.git)
+   git clone [https://github.com/Anesie/portail-miashs.git](https://github.com/Anesie/portail-miashs.git)
    ```
 
 2. Navigate to the project folder:
     ```bash
-   cd projet_S6
+   cd portail-miashs
    ```
 
 3. Open the index.html file in your preferred web browser.
