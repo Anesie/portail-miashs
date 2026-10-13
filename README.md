@@ -1,26 +1,37 @@
-# 🎓 Portail d'Aide aux Étudiants MIASHS
+# 🎓 MIASHS Student Support Portal
 
-## 📝 Description du projet
-Ce projet est un portail web centralisant toutes les informations essentielles pour accompagner les étudiants de la filière MIASHS (Mathématiques, Informatique, et Sciences Humaines et Sociales) tout au long de leur scolarité. L'objectif est de simplifier l'accès à l'information et d'améliorer l'expérience étudiante grâce à une interface claire et intuitive.
+## 📝 Project Description
+This project is a web portal centralizing all essential information to support students in the MIASHS program (Mathematics, Computer Science, and Humanities and Social Sciences) throughout their studies. The goal is to simplify access to information and improve the student experience through a clear and intuitive interface.
 
-## ✨ Fonctionnalités principales
-Le portail est divisé en plusieurs rubriques clés pour répondre aux besoins quotidiens des étudiants :
-*   🏠 **Accueil & Vie Étudiante :** Le point d'entrée du site, regroupant les actualités et les informations sur la vie de campus.
-*   📅 **Examens :** Informations sur les modalités, les calendriers et les ressources liées aux évaluations.
-*   📞 **Contacts :** Un annuaire rapide pour joindre l'administration, les responsables pédagogiques ou les professeurs.
-*   🎓 **Inscriptions :** Toutes les démarches administratives et les liens utiles pour se réinscrire facilement.
-*   🔍 **Barre de recherche globale :** Fonctionnalité ajoutée suite à des tests utilisateurs pour permettre de trouver une information précise instantanément.
+## ✨ Main Features
+The portal is divided into several key sections to meet the daily needs of students:
+- 🏠 **Home & Student Life:** The entry point of the site, gathering campus news and life information.
+- 📅 **Exams:** Information on procedures, schedules, and resources related to evaluations.
+- 📞 **Contacts:** A quick directory to reach the administration, academic coordinators, or professors.
+- 🎓 **Registrations:** All administrative procedures and useful links to re-enroll easily.
+- 🔍 **Global Search Bar:** A feature added following user testing to allow finding precise information instantly.
 
-## 🛠️ Technologies utilisées
-*   **Front-end :** HTML, CSS, JavaScript
-*   **Méthodologie :** Conception centrée sur l'utilisateur (UCD), intégration de retours suite à des phases de tests utilisateurs.
+## 🛠️ Technologies Used
+- **Front-end:** HTML, CSS, JavaScript
+- **Methodology:** User-Centered Design (UCD), integration of feedback following user testing phases.
 
-## 🧪 Démarche et Tests Utilisateurs
-Pour s'assurer que le portail réponde aux véritables besoins des étudiants, nous avons mis en place une phase de tests utilisateurs. L'analyse de ces retours nous a permis d'itérer sur le design et d'implémenter de nouvelles fonctionnalités essentielles, telles que la barre de recherche, afin d'optimiser la navigation.
+## 🧪 Methodology and User Testing
+To ensure the portal met the actual needs of students, we implemented a user testing phase. Analyzing this feedback allowed us to iterate on the design and implement essential new features, such as the search bar, to optimize navigation.
 
-## 🚀 Installation et exécution en local
-Comme il s'agit d'un projet front-end statique, l'installation est très simple :
+## 🚀 Local Installation and Execution
+As this is a static front-end project, installation is very straightforward:
 
-1. Clonez ce dépôt sur votre machine locale :
+1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/Anesie/projet_S6.git](https://github.com/Anesie/projet_S6.git)
+   ```
+
+2. Navigate to the project folder:
+    ```bash
+   cd projet_S6
+   ```
+
+3. Open the index.html file in your preferred web browser.
+
+### 👥 Author
+Anesie Martiniani, PRATABUY Alix, IKAN SARA - Development (MIASHS Project)
